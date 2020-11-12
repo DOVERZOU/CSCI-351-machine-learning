@@ -116,7 +116,7 @@ main(int argc, char * argv[])
   for(int i = 0; i < n;i++){
     for(int j = 0; j < m - 1; j++){
       for(int k = 0; k < 10; k++){
-	if(urating[j] == rating[ i * m + j] && rating [ i * m + 4] = = (k + 1 ) / 2.0){
+	if(urating[j] == rating[ i * m + j] && rating [ i * m + 4] == (k + 1 ) / 2.0){
 	  cprob[(j * 10) + k] += 1;
 	    }
       }
